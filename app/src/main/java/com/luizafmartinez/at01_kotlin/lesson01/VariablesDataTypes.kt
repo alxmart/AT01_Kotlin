@@ -6,11 +6,15 @@ val y = 3
 //val y = 1
 
 fun main() {
-    //println("Hello, Android")
-    //val z = x + y
-    //println("Valor de Z é: $z")
+
+    println("Hello, Android")
+    val z = x + y
+    println("Valor de Z é: $z")
+
     println("Welcome to Android")
-    //test()
+
+    test()
+
     x = 4
     println("Now, the value of X is: $x")
 
@@ -33,18 +37,18 @@ fun main() {
     println("Está calor hoje ? $isWarm")
 
     // Byte  - 8 bits (0 - 255) 0
-    var bx: Byte = 9
-    var by: Byte = 5
+    var bx: Byte = 7
+    var by: Byte = 3
     var bz = bx + by
     println("bz vale: $bz")
 
     // Short  - 16 bits (-32768 - 32768)
 
     // Int  - 32 bits (-2,147,483,648 -> +2,147,483,647) 0
-    var i1: Int = 9
-    var i2: Int = 6
-    var zint: Int = i1 + i2
-    println("zint: $zint")
+    var i1: Int = 8
+    var i2: Int = 7
+    var zInt: Int = i1 + i2
+    println("zInt: $zInt")
 
     // Long  - 64 bit   /  0L
 
@@ -62,11 +66,11 @@ fun main() {
     var firstName: String? = null
     println("First name: $firstName")
 
-    firstName = "Homer"
+    firstName = "John"
     println("First name: $firstName")
 
     // Arrays:
-    var vetor = arrayOf(5, 7, 9)
+    var vetor = arrayOf(3, 5, 7)
 
     println("vetor[0]: ${vetor[0]}")
     println("vetor[1]: ${vetor[1]}")

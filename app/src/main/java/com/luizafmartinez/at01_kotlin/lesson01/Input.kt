@@ -12,7 +12,7 @@ fun main() {
     println("Enter Your Age :")
     var age = readLine()
 
-    println("Thank you, Your Name is : $name and Your Age is = $age")
+    println("Your Name is : $name and Your Age is = $age")
     println("========================================================")
 
 }

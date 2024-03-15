@@ -7,17 +7,17 @@ fun main() {
     println("=========================================")
 
     println("Enter the first number:")
-    var x = Integer.valueOf(readLine())
+    var a = Integer.valueOf(readLine())
 
     println("Enter the Second number:")
-    var y = Integer.valueOf(readLine())
+    var b = Integer.valueOf(readLine())
 
-    var z = x + y
-    var a = x * y
-    var b = x / y
+    var c = a + b
+    var d = a * b
+    var e = a / b
 
-    println("The Sum Result= $z")
-    println("The Multiplication Result=$a")
-    println("The Division Result= $b")
+    println("The Sum Result = $c")
+    println("The Multiplication Result = $d")
+    println("The Division Result = $e")
     println("========================================================")
 }
