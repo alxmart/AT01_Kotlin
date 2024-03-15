@@ -3,6 +3,7 @@ package Lesson02
 fun main() {
 
     println("Welcome earthlings. \nWe will destroy your world. Hahaha !")
+
     soma(20, 30)
 }
 

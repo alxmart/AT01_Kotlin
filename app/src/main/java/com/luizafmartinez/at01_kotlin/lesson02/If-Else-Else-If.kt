@@ -3,6 +3,7 @@ package Lesson02
 fun main() {
 
     var x = 11
+
     if (x > 30) println(" IF running")
     else println("Else running")
 
