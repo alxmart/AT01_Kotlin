@@ -4,4 +4,6 @@ interface Calc {
 
     fun sum(x: Int, y:Int)
 
+    fun multiply(a: Int, b: Int)
+
 }
