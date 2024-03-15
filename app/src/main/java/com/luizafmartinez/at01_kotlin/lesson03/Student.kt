@@ -1,6 +1,6 @@
 package com.luizafmartinez.at01_kotlin.lesson03
 
-class Student(
+open class Student(
     recebeName: String,
     recebeCollege: String,
     recebeAge: Int
